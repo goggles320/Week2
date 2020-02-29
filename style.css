@@ -1,0 +1,60 @@
+/*Navigation Bar Styling */
+.container-nav{
+    padding-left: 20px;
+    font-family: 'Oxanium', ;
+    width: 100px;
+    color: aquamarine;
+}
+
+/*Header Styling*/
+.navbar-header, .form-header, .class-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+
+/*Footer Bar Styling */
+.endpage {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/*Container Styling*/
+.card {
+    width: 600px;
+}
+.contact-container {
+    width: 800x;
+    margin: 20px;
+}
+
+
+.card-img-top {
+    float:left;
+}
+
+
+
+@media (min-width: 640px) {
+    .navbar-header{
+        float:none;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+
+    .container-fluid{
+        text-align: center;
+    }
+    .contact-container {
+        width: 600px;
+    }
+}
+
+@media (min-width:480px) {
+    .contact-container {
+        width: 440px;
+    }
+}
